@@ -3,6 +3,7 @@
 
   <remote name="t2m" fetch="git://github.com/t2m-foxfone/"/>
   <remote name="b2g" fetch="https://github.com/mozilla-b2g/" />
+  <remote name="ksk" fetch="https://github.com/kskarthik/" />
 
   <default remote="caf" revision="LA.BF.1.1.2_rb1.12" sync-j="4"/>
 
@@ -16,7 +17,8 @@
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
   <project name="device/qcom/common" path="device/qcom/common"/>
   <project name="platform/vendor/qcom/msm8610" path="device/qcom/msm8610"/>
-  <project name="device-flame" path="device/t2m/flame" remote="b2g" revision="lollipop"/>
+  <project name="device-flame" path="device/t2m/flame" remote="ksk" revision="lollipop"/>
+  <project name="vendor-t2m-flame" path="vendor/t2m/flame" remote="ksk" revision="lollipop"/>
   <remove-project name="platform/external/bluetooth/bluedroid"/>
   <project name="platform_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="b2g" revision="foxfone-one-lollipop"/>
   <project name="android_platform_external_libnfc-nci" path="external/libnfc-nci" remote="t2m" revision="foxfone-one-lollipop"/>
@@ -41,7 +43,7 @@
   <project name="android_platform_hardware_qcom_sensors" path="hardware/qcom/sensors" remote="t2m" revision="foxfone-one-lollipop"/>
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project name="platform/hardware/ril" path="hardware/ril"/>
-  <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="foxfone-one-lollipop"/>
+  <project name="codeaurora_kernel_msm" path="kernel" remote="ksk" revision="foxfone-one-lollipop"/>
   <remove-project name="platform_prebuilts_misc"/>
   <project name="platform_prebuilts_misc" path="prebuilts/misc" remote="b2g" revision="b2g-5.0.0_r6"/>
   <remove-project name="platform/system/core"/>
