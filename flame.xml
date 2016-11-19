@@ -1,6 +1,8 @@
 
 <?xml version="1.0" ?><manifest>
 
+<include name="base-l.xml">
+
   <remote name="t2m" fetch="git://github.com/t2m-foxfone/"/>
   <remote name="b2g" fetch="https://github.com/mozilla-b2g/" />
   <remote name="ksk" fetch="https://github.com/kskarthik/" />
