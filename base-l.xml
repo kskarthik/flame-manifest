@@ -1,8 +1,6 @@
 <?xml version="1.0" ?>
 <manifest>
 
-  <include name="base.xml"/>
-
   <!-- B2G specific things. -->
   <project name="platform_build" path="build" remote="b2g" revision="b2g-5.1.1_r29">
     <copyfile dest="Makefile" src="core/root.mk"/>
